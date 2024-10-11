@@ -1,0 +1,33 @@
+2024-10-11 18:39:32.203 [info] [main] Log level: Info
+2024-10-11 18:39:32.203 [info] [main] Validating found git in: "git"
+2024-10-11 18:39:32.203 [info] [main] Using git "2.43.0" from "git"
+2024-10-11 18:39:32.203 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-11 18:39:32.203 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 18:39:32.205 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-11 18:39:32.210 [info] [Model][openRepository] Opened repository: /home/calsifer
+2024-10-11 18:39:32.272 [info] > git config --get commit.template [59ms]
+2024-10-11 18:39:32.275 [info] > git rev-parse --show-toplevel [61ms]
+2024-10-11 18:39:32.434 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 18:39:32.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-11 18:39:32.487 [info] > git rev-parse --show-toplevel [48ms]
+2024-10-11 18:39:32.488 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [50ms]
+2024-10-11 18:39:32.492 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 18:39:32.494 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 18:39:32.496 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-11 18:39:32.546 [info] > git status -z -uall [110ms] (cancelled)
+2024-10-11 18:39:32.779 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-11 18:39:33.475 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-11 18:39:33.883 [info] > git show --textconv :web.html [3ms]
+2024-10-11 18:39:33.884 [info] > git ls-files --stage -- /home/calsifer/web.html [3ms]
+2024-10-11 18:39:33.886 [info] > git cat-file -s 7c3331820fc20da5d1096d4fbf3aeb11368f1730 [1ms]
+2024-10-11 18:39:42.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-11 18:39:42.935 [info] > git config --get commit.template [4ms]
+2024-10-11 18:39:42.935 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-10-11 18:39:42.935 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-11 18:39:42.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-11 18:39:42.952 [info] > git reflog master --grep-reflog=branch: Created from *. [15ms]
+2024-10-11 18:39:42.956 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+2024-10-11 18:39:42.959 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-11 18:39:42.959 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-11 18:39:42.959 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-11 18:39:43.491 [info] > git status -z -uall [547ms] (cancelled)

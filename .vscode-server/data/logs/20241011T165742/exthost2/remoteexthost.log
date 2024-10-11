@@ -1,0 +1,18 @@
+2024-10-11 17:11:33.588 [info] Extension host with pid 3906 started
+2024-10-11 17:11:33.596 [info] Lock '/home/calsifer/.vscode-server/data/User/workspaceStorage/c530ab863664dfd6bbc45ac219a11bc0/vscode.lock': Lock acquired.
+2024-10-11 17:11:33.659 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-11 17:11:33.660 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-10-11 17:11:36.118 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-11 17:11:36.126 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-11 17:11:36.126 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-11 17:11:36.229 [info] ExtensionService#_doActivateExtension pranaygp.vscode-css-peek, startup: true, activationEvent: 'workspaceContains:**/*.css,**/*.scss,**/*.sass,**/*.less'
+2024-10-11 17:11:36.350 [info] Eager extensions activated
+2024-10-11 17:11:36.350 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 17:11:36.350 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 17:11:36.350 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 17:11:36.351 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 17:11:36.351 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 17:11:36.669 [info] ExtensionService#_doActivateExtension streetsidesoftware.code-spell-checker-spanish, startup: false, activationEvent: 'onStartupFinished'
+2024-10-11 17:13:00.540 [info] Extension host terminating: received terminate message from renderer
+2024-10-11 17:13:00.541 [info] Lock '/home/calsifer/.vscode-server/data/User/workspaceStorage/c530ab863664dfd6bbc45ac219a11bc0/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-10-11 17:13:00.567 [info] Extension host with pid 3906 exiting with code 0

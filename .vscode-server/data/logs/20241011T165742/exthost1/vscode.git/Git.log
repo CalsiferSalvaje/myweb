@@ -1,0 +1,58 @@
+2024-10-11 16:57:46.337 [info] [main] Log level: Info
+2024-10-11 16:57:46.338 [info] [main] Validating found git in: "git"
+2024-10-11 16:57:46.338 [info] [main] Using git "2.43.0" from "git"
+2024-10-11 16:57:46.338 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-11 16:57:46.338 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 16:57:46.338 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 16:57:46.338 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 16:57:46.338 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 16:57:46.339 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-11 16:57:46.339 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 16:57:46.341 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 16:57:46.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 16:57:46.343 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-11 16:57:54.669 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 16:57:54.669 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:50.692 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 17:07:50.692 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:51.419 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:07:51.419 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:51.650 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 17:07:51.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:52.686 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:07:52.686 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:52.690 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 17:07:52.690 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:52.877 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:07:52.877 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:53.402 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:07:53.402 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:53.404 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:07:53.404 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:53.405 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-11 17:07:53.405 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:53.407 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:07:53.407 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:53.705 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 17:07:53.705 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:54.305 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-11 17:07:54.305 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:07:57.024 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/d/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/d/'
+2024-10-11 17:07:57.026 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/es5-ext/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/es5-ext/'
+2024-10-11 17:07:57.027 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/eslint/node_modules/run-async/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/eslint/node_modules/run-async/'
+2024-10-11 17:07:57.028 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/resolve/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/resolve/'
+2024-10-11 17:07:57.029 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/balanced-match/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/balanced-match/'
+2024-10-11 17:07:57.030 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/brace-expansion/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/brace-expansion/'
+2024-10-11 17:07:57.031 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/resolve/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/resolve/'
+2024-10-11 17:07:57.032 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/resolve/test/resolver/symlinked/_/symlink_target/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/resolve/test/resolver/symlinked/_/symlink_target/'
+2024-10-11 17:07:57.033 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/supports-preserve-symlinks-flag/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/supports-preserve-symlinks-flag/'
+2024-10-11 17:07:57.034 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/vscode-uri/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.b57ef641-2d7f-4260-81f7-e265712e4dbe/server/node_modules/vscode-uri/'
+2024-10-11 17:07:57.035 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/acorn-jsx/node_modules/acorn/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/acorn-jsx/node_modules/acorn/'
+2024-10-11 17:07:57.036 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/balanced-match/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/balanced-match/'
+2024-10-11 17:07:57.037 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/es6-symbol/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/es6-symbol/'
+2024-10-11 17:07:57.038 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/ext/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/ext/'
+2024-10-11 17:07:57.039 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/supports-preserve-symlinks-flag/". Error:Error: ENOENT: no such file or directory, realpath '/home/calsifer/.vscode-server/extensions/.2788c230-1831-4ce6-a567-be605632df14/node_modules/supports-preserve-symlinks-flag/'
+2024-10-11 17:08:27.718 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-11 17:08:27.718 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-11 17:08:40.850 [info] > git rev-parse --show-toplevel [0ms]
+2024-10-11 17:08:40.850 [info] fatal: not a git repository (or any of the parent directories): .git
